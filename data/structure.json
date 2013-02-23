@@ -1,0 +1,20 @@
+{	
+	"albumName": "",
+	"albumCover": "",
+	"type": "",
+	"AlbumDescr": "",
+	"contentPic": [
+		{
+			"contentPic": "",
+		 	"contentDescr": ""
+		},
+		{
+			"contentPic": "",
+		 	"contentDescr": ""
+		},
+		{
+			"contentPic": "",
+		 	"contentDescr": ""
+		}
+	]
+};
