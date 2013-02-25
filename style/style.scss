@@ -166,6 +166,13 @@ a:hover {
 		border-radius: 10px 0 0 10px;
 	}
 }
+#aboutme {
+	width: $showpad-width *4/5;
+	background: rgba(255,255,255,0.2);
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .cato1 {
 	background: $color4;
 }
@@ -260,6 +267,18 @@ a:hover {
 .clear {
 	clear: both;
 }
-.before {
-	
+.me {
+	font-size: $text-xs + 0.1rem;
+	line-height: $text-l;
+	img {
+		border: 10px solid $color3;
+		border-radius: 5px;
+	}
+}
+.contact {
+	display: inline-block;
+	@include padding(0.5,0);
+	margin-left: -0.5rem;
+	color: $color5;
+	background: white;
 }
