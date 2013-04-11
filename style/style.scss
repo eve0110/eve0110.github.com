@@ -11,6 +11,9 @@ $color3: rgb(127,112,105);
 $color4: #00A99D;
 $color5: #F15A24;
 $border:0.1rem solid #D4BDA7;
+@mixin grad-bg {
+	
+}
 @mixin testbox($color, $border-w) {
 	background: $color;
 	border: #{$border-w}px solid black;
@@ -83,8 +86,10 @@ a:hover {
 }
 .menubar {
 	font-size:$text-s;
-	@include mainfont;
-	@include testbox(#FFE9D7,0);
+	@include mainfont;	
+	background: -webkit-gradient(linear,left top, left bottom, color-stop(0%,#FFD6C9),color-stop(100%,#FFE9D7));
+	
+
 }
 .menu-item {
 	div {		
@@ -155,6 +160,7 @@ a:hover {
 	.thumbnail_my:hover {
 		background: white;
 		@include shadow(0.3,0,0.3);
+		transition: all 0.3s;
 		cursor: pointer;
 	}
 	.cato {
