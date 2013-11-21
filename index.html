@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 	<title>EvesShowRoom</title>
 </head>
 <body>
@@ -38,52 +38,64 @@
 		</div>
 		</div>
 		<div id="overview" class="tab-pane fade in active">
-			<div class="cato cato1"><img src="images/ic_cato_android.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato1"><img src="images/ic_cato_android.png"/></div>
 				<img src="images/showroom/androidIcon/cover.png"/ goto="#ui-1" category="#ui-design">
 			</div>
 			<div class="thumbnail_my">
+				<div class="cato cato1"><img src="images/ic_cato_android.png"/></div>
 				<img src="images/showroom/androidPhone/cover.png" goto="#ui-2" category="#ui-design">
 			</div>
-			<div class="cato cato1"><img src="images/ic_cato_ios.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato1"><img src="images/ic_cato_ios.png"/></div>
 				<img src="images/showroom/musicWorld/cover.png"/ goto="#ui-3" category="#ui-design">
 			</div>
 			<div class="thumbnail_my">
+				<div class="cato cato1"><img src="images/ic_cato_ios.png"/></div>
 				<img src="images/showroom/babySinger/cover.png"/ goto="#ui-4" category="#ui-design">
 			</div>
-			<div class="cato cato1"><img src="images/ic_cato_web.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato1"><img src="images/ic_cato_web.png"/></div>
 				<img src="images/showroom/where2go/cover.png"/ goto="#ui-5" category="#ui-design">
 			</div>
-			<div class="cato cato1"><img src="images/ic_cato_tv.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato1"><img src="images/ic_cato_tv.png"/></div>
 				<img src="images/showroom/Navi/cover.png"/ goto="#ui-6" category="#ui-design">
 			</div>
-			<div class="cato cato1"><img src="images/ic_cato_tv.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato1"><img src="images/ic_cato_tv.png"/></div>
 				<img src="images/showroom/3DUI/cover.png"/ goto="#ui-7" category="#ui-design">
 			</div>
-			<div class="cato cato2"><img src="images/ic_cato_card.png"/></div>
 			<div class="thumbnail_my">
+				<div class="cato cato2"><img src="images/ic_cato_card.png"/></div>
 				<img src="images/showroom/graphicDesign/2007moon_cover.jpg"/ goto="#graphic-1" category="#graphic-design">
 			</div>
 			<div class="thumbnail_my">
+				<div class="cato cato2"><img src="images/ic_cato_card.png"/></div>
 				<img src="images/showroom/graphicDesign/2009NewYearCard_cover.jpg"/ goto="#graphic-2" category="#graphic-design">
 			</div>
 			<div class="thumbnail_my">
+				<div class="cato cato2"><img src="images/ic_cato_card.png"/></div>
 				<img src="images/showroom/graphicDesign/2010xmasCard_cover.png"/ goto="#graphic-3" category="#graphic-design">
 			</div>
-			<div class="cato cato2"><img src="images/ic_cato_poster.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato2"><img src="images/ic_cato_poster.png"/></div>
 				<img src="images/showroom/graphicDesign/PPTtemplate_f_cover.png"/ goto="#graphic-4" category="#graphic-design">
 			</div>
-			<div class="cato cato2"><img src="images/ic_cato_goods.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato2"><img src="images/ic_cato_goods.png"/></div>
 				<img src="images/showroom/graphicDesign/dogcalendar_cover.png"/ goto="#graphic-5" category="#graphic-design">
 			</div>
-			<div class="cato cato2"><img src="images/ic_cato_poster.png"/></div>
+			
 			<div class="thumbnail_my">
+				<div class="cato cato2"><img src="images/ic_cato_poster.png"/></div>
 				<img src="images/showroom/graphicDesign/Taiwan_playguide_cover.png"/ goto="#graphic-6" category="#graphic-design">
 			</div>
 		</div>
@@ -462,7 +474,7 @@
 		$('.carousel').carousel('cycle')
 	</script>
 	<script>
-		$('.thumbnail_my img').click(function(){
+		$('.thumbnail_my.click(function(){
 			var target = $(this).attr('goto');
 			var category = $(this).attr('category');
 		    $('a[href="#moredetail"]').tab('show'); 

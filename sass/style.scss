@@ -154,20 +154,26 @@ a:hover {
 	
 }
 #overview {
-	max-width:$showpad-width * 1.5;
-	margin-left: auto;
-	margin-right: auto;
+	@include container;
+	//max-width:$showpad-width * 1.5;
+	//margin-left: auto;
+	//margin-right: auto;
 	margin-top: 1.4em;
 	div {
 		float: left;
 	}
 	.thumbnail_my {
-		//@include span-columns(3);
-		height: 190px;
+		position: relative;
+		@include span-columns(2.8);
+		//height: 190px;
 		padding: 8px;
-		margin-right: 2px; 
-		margin-bottom: 10px; 
+		margin-right: 5px; 
+		margin-bottom: 5px; 
 		background: $color3;
+		img {
+			width: 100%;
+		}
+		
 	}
 	.thumbnail_my:hover {
 		background: white;
@@ -176,10 +182,12 @@ a:hover {
 		cursor: pointer;
 	}
 	.cato {
-		width: 66px;
-		height: 81px;
-		padding: 120px 0 5px 0; 
-		margin-bottom: 10px;
+		position: absolute;
+		width: 45px;
+		
+		//height: 30px;
+		//padding: 120px 0 5px 0; 
+		//margin-bottom: 10px;
 		margin-left: 10px;
 		border-radius: 10px 0 0 10px;
 	}

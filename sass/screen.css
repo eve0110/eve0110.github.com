@@ -5,17 +5,24 @@ Syntax error: File to import not found or unreadable: susy.
                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets
                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets
                 Compass::SpriteImporter
-        on line 2 of /Users/evetsai/Dropbox/EvesWeb/website/style/style.scss
+        on line 4 of /Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/_base.scss
+        from line 4 of /Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/screen.scss
 
-1: /Users/evetsai/Dropbox/EvesWeb/website/style/style.scss
+1: /Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/screen.scss
 
 Backtrace:
-/Users/evetsai/Dropbox/EvesWeb/website/style/style.scss:2
+/Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/_base.scss:4
+/Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/screen.scss:4
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/import_node.rb:45:in `import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/import_node.rb:28:in `imported_file'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/import_node.rb:37:in `css_import?'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:227:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -44,15 +51,14 @@ Backtrace:
 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:95:in `block (4 levels) in perform'
 /Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
 /Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
 /Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:39:in `delete'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:32:in `block in deleted'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:31:in `each'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:31:in `deleted'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:16:in `refresh'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:31:in `create'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:26:in `block in created'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `each'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `created'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:17:in `refresh'
 /Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
 /Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
 /Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
@@ -74,4 +80,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: susy.\A               Load paths:\A                 /Users/evetsai/Dropbox/EvesWeb/website/style\A                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 2 of /Users/evetsai/Dropbox/EvesWeb/website/style/style.scss\A \A 1: /Users/evetsai/Dropbox/EvesWeb/website/style/style.scss"; }
+  content: "Syntax error: File to import not found or unreadable: susy.\A               Load paths:\A                 /Users/evetsai/Dropbox/EvesWeb/website/style\A                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 4 of /Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/_base.scss\A         from line 4 of /Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/screen.scss\A \A 1: /Users/evetsai/Dropbox/EvesWeb/website/style/aaa/sass/screen.scss"; }
